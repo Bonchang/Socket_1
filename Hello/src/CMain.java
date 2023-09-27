@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 
-public class SMain {
+public class CMain {
     public static void main(String[] args) {
         try {
             // 서버 소켓 생성 및 포트 번호 12345로 바인딩
