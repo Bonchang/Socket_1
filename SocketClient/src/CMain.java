@@ -2,8 +2,8 @@ import java.io.*;
 import java.net.*;
 
 public class CMain {
-    public static void main(String[] args) {
-        try {
+	public void run() {
+	    try {
             // 서버에 연결
             Socket socket = new Socket("localhost", 12345);
 
@@ -27,6 +27,10 @@ public class CMain {
         } catch (IOException e) {
             e.printStackTrace();
         }
+	}
+    public static void main(String[] args) {
+    	CMain cMain = new CMain();
+    	cMain.run();
     }
 }
 
