@@ -24,7 +24,8 @@ public class SMain {
 
 	            // 클라이언트에게 응답 보내기
 	            out.println("Hello, Client!");
-
+	            out.println("Hello, Client!");
+	            
 	            // 자원 정리
 	            in.close();
 	            out.close();
