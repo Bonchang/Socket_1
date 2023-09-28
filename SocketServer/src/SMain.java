@@ -4,7 +4,7 @@ import java.net.*;
 public class SMain {
 	public void run() {
 		 try {
-	            // 서버 소켓 생성 및 포트 번호 12345로 바인딩
+	            // 서버 소켓 생성 및 포트 번호 12345로 바인딩.
 	            ServerSocket serverSocket = new ServerSocket(12345);
 	            System.out.println("서버가 시작되었습니다. 클라이언트의 연결을 기다립니다...");
 
