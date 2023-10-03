@@ -40,7 +40,6 @@ public class SMain {
 	        } catch (IOException e) {
 	            e.printStackTrace();
 	        }
->>>>>>> refs/remotes/origin/master
 	}
 	
     public static void main(String[] args) {
