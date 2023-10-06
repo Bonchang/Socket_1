@@ -1,6 +1,6 @@
 
-public class Control extends Stub implements IControl {
-	public Control() {
+public class Control1 extends Stub implements IControl {
+	public Control1() {
 		
 	}
 	public String getUserInfo() {

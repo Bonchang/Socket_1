@@ -4,10 +4,17 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.HashMap;
 
 public class Skeleton {
-
+	private HashMap<String, Object> objectMap;
+	public Skeleton () {
+	this.objectMap = new HashMap<String, Object>();
+	this.objectMap.put("control", new Control());
+	}
+	
 	public static void process() {
+		
 		final int port = 12345;
 		
 		try {
