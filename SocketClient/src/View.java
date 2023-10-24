@@ -1,11 +1,11 @@
 
 public class View {
-	private Control control;
+	private CLogin cLogin;
 	public View() {
-		this.control = new Control();
+		this.cLogin = new CLogin();
 	}
 	public void showUserInfo() {
-		String UserInfo = this.control.getUserInfo();
+		String UserInfo = this.cLogin.getUserInfo();
 		System.out.println(UserInfo);
 	}
 

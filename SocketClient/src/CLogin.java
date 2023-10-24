@@ -1,10 +1,10 @@
 
-public class Control extends Stub implements IControl {
-	public Control() {
+public class CLogin extends Stub implements ICLogin {
+	public CLogin() {
 		
 	}
 	public String getUserInfo() {
-		String userInfo = send("control", "getIserIngo","");
+		String userInfo = send("CLogin", "getUserInfo","");
 		return  userInfo;
 	}
 
