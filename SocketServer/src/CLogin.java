@@ -5,10 +5,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class CLogin {
-	public CLogin() {
-		
-	}
-	
+
 	public String getUserInfo() {
 	    try {
             // 서버에 연결

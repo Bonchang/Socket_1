@@ -13,10 +13,11 @@ public class Skeleton {
 	public Skeleton() {
 		this.objectMap = new HashMap<String, Object>();
 		this.objectMap.put("cLogin", new CLogin());
+		System. out.println("1");
 	}
 
 	public void process() {
-		final int port = 12345;
+		final int port = 12345; //포트 지정
 
 		try {
 			ServerSocket serverSocket = new ServerSocket(port);
@@ -37,13 +38,6 @@ public class Skeleton {
 			Session session = new Session();
 			session. process (object, methodName, args, writer);
 			
-			clientSocket.close ();
-			
-
-			CLogin control = new CLogin();
-			String userInfo = control.getUserInfo();
-			writer.println(userInfo);
-
 			clientSocket.close();
 			System.out.println("Skeleton-client disconnected: " + clientSocket.getInetAddress());
 			}
